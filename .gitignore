@@ -1,0 +1,29 @@
+build/
+dist/
+__pycache__/
+*.exe
+*.pyc
+
+# secrets and private config — copy sheet_config.example.json and fill in
+sheet_config.json
+service_key.json
+token.json
+credentials.json
+settings.ini
+
+# third-party test utilities — not redistributable, see tools/README.md
+tools/*
+!tools/README.md
+
+# internal/AI tool files
+ТЕст/
+.claude/
+CLAUDE.md
+*.md.bak
+.aider*
+bugs.md
+*_ai_notes*
+llm_context*
+
+# PyInstaller leftovers
+*.spec.bak
