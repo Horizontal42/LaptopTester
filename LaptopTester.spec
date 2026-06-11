@@ -1,12 +1,13 @@
 # -*- mode: python ; coding: utf-8 -*-
 
-
 a = Analysis(
     ['tester.py'],
     pathex=[],
     binaries=[],
-    datas=[],
-    hiddenimports=[],
+    datas=[
+        ('sheet_config.example.json', '.'),
+    ],
+    hiddenimports=['wmi', 'win32com', 'win32com.client'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
