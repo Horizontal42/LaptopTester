@@ -15,15 +15,8 @@ settings.ini
 tools/*
 !tools/README.md
 
-# internal/AI tool files
 ТЕст/
-.claude/
-CLAUDE.md
 *.md.bak
-.aider*
-bugs.md
-*_ai_notes*
-llm_context*
 
 # PyInstaller leftovers
 *.spec.bak
